@@ -1,19 +1,16 @@
-# :earth_americas: GDP dashboard template
+# 📊 Proyecto Datasheet con MongoDB Atlas y Render
 
-A simple Streamlit app showing the GDP of different countries in the world.
+Este proyecto muestra cómo conectar una base de datos **MongoDB Atlas** a una aplicación **Streamlit** desplegada en **Render**.
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://gdp-dashboard-template.streamlit.app/)
+## 🚀 Pasos rápidos
 
-### How to run it on your own machine
-
-1. Install the requirements
-
-   ```
-   $ pip install -r requirements.txt
-   ```
-
-2. Run the app
-
-   ```
-   $ streamlit run streamlit_app.py
-   ```
+1. Subir este repositorio a GitHub.
+2. En Render:
+   - Crear un **Web Service**.
+   - Conectar tu repositorio.
+   - Comando de inicio:
+     ```
+     streamlit run app/main.py
+     ```
+   - Agregar archivo secreto con el contenido de `.streamlit/secrets.toml`.
+3. ¡Listo!
